@@ -1,0 +1,64 @@
+{
+  "id": "d8937727-7ee1-4b15-9233-f83d01b26e85",
+  "name": "AboutCharusat.address",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "139, CHARUSAT Campus, Highway, Off, Nadiad - Petlad Rd, Changa, Gujarat 388421"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.google.com/search?q=charusat+university+address&oq=charusat+university+add&aqs=chrome.0.0i355i512j46i512j69i57j0i390.11927j0j15&sourceid=chrome&ie=UTF-8#"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a79175a2-41fc-4374-8a3f-29771941f761",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

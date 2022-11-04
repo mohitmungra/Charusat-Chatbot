@@ -1,0 +1,92 @@
+{
+  "id": "473059c1-4d78-48c3-95c7-a850c46c9db7",
+  "name": "Parents.Placement.Avg",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "ParentsPlacement-followup"
+  ],
+  "contexts": [
+    "ParentsPlacement-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "0acd5c9e-b8ac-4856-bd20-11941c2fafa3",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Parents.Parents-custom.ParentsPlacement-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Average Package Details of Last Few Year :"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Year 2018-2019 -> 4 Lakh/Year"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Year 2019-2020 -> 4 Lakh/Year"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Year 2020-2021 -> 4.20 Lakh/Year"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Year 2021-2022 -> 5.30 Lakh/Year"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Year 2022-2023 -> 5.90 Lakh/Year"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "39290a73-1a0f-438a-a092-74dcfdf3ca6b",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69e3c7ed-c71b-4b5e-bf8f-e9eacbc476db",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

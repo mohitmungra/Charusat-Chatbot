@@ -1,0 +1,353 @@
+{
+  "id": "9817d1bc-33b8-4b71-9bd9-f14505b7c2cd",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hello ! Welcome to Charusat World !"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for showing interest in Charusat University 🎓"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Please Choose Below Options:"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "1.About Charusat"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "2.Admission"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "3.Hostel and Transportation"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "4.Placement Details (IT Department)"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "5.Academics"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "6.Alumni"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e150ca0-cdd8-4632-97f6-84a1868ae485",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hiii",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e3b27be-cabe-47d7-89f0-4cb9d2d49f0e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52ebbb9c-d603-49e2-8fcb-156a6e902623",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba286e1d-c053-4010-9a09-661275e2cec4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hii",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "473ef645-d25b-4d12-8db1-ddfdcea1297b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5316cebd-6c5a-4c67-adac-f27d96ebe2bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fb195b3-68ed-4fb2-8a10-7c7a8c234461",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df76cae5-ef1b-41b0-8a01-6289311f80a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0d2303c-190f-43ba-9434-db3f288a9194",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2caa1175-9941-4c2c-b67a-065b276f6ac4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e043d3fe-aab6-4290-909c-e7c6a55325bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c9be2e01-b152-4927-9173-aa21df3753f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f4a7639-11e5-4611-b369-aa767ef7d5f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c56e7a99-d0c8-4f70-bcbf-b8f0bb028c67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "429fb5c7-3f93-485f-b1ee-8befb51bfb5b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d988f725-a440-4ffc-b387-432220a1f27e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67f20043-b8c2-46cc-9b0b-91512f4548d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3848d9a-d476-48be-96e8-b2c82da10486",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ddcd2f0b-770f-4c79-ac3d-80405c405fe4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "353418fd-57d2-4040-b007-cc314e8d0c4c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fce567b5-6f99-42b2-a9b9-4d59006bae61",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

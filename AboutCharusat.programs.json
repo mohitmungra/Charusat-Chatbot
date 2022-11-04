@@ -1,0 +1,57 @@
+{
+  "id": "822d61bc-6a67-4825-9702-b6f03b2ea1a7",
+  "name": "AboutCharusat.programs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.charusat.ac.in/admission/#courses"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "5",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "846979a6-5614-4921-9aa3-cd4b71456d2d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

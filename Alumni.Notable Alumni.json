@@ -1,0 +1,64 @@
+{
+  "id": "051b9898-be09-4357-9ed2-205229dda684",
+  "name": "Alumni.Notable Alumni",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Alumni-followup"
+  ],
+  "contexts": [
+    "Alumni-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Alumni.Alumni-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/1eKO2iTQwAm5WpSgmxOW_OKTKG5ZuYHyB/view?usp=share_link"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/1lr3QWbSvJ8hr9o40zG5yU7Feq4I9Ronc/view?usp=share_link"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a478bd5-bb6a-46e7-bd5f-24f6e82cc925",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "38901d12-cbe3-4739-94e5-bec584391e77",
+  "name": "Alumni.Alumni meet",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Alumni-followup"
+  ],
+  "contexts": [
+    "Alumni-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Alumni.Alumni-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Alumni Meet 13 Feb 2021 at CHARUSAT Campus.\nAlumni Meet 12 MArch 2022 at Ahmedabad.\nAlumni General Meet 3 Sep 2022 at CHARUSAT Campus."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We will update you for Next Meet."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "64a4fbc7-e74a-4fc1-a7db-71d7ea7f1826",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

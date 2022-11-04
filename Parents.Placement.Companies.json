@@ -1,0 +1,57 @@
+{
+  "id": "2c5e05bb-d73d-4d39-a1ab-f3cc048c507c",
+  "name": "Parents.Placement.Companies",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "ParentsPlacement-followup"
+  ],
+  "contexts": [
+    "ParentsPlacement-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "0acd5c9e-b8ac-4856-bd20-11941c2fafa3",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Parents.Parents-custom.ParentsPlacement-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/18Aa8L5Locc0PBChhFyKsMidF1EavVPmc/view?usp=sharing"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "39290a73-1a0f-438a-a092-74dcfdf3ca6b",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16272a6b-9ed2-4289-a787-830c8b7cfcbf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

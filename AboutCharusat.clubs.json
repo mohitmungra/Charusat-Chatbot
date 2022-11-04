@@ -1,0 +1,85 @@
+{
+  "id": "91192d68-074f-491b-b2ed-cb4da566f3e1",
+  "name": "AboutCharusat.clubs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/1oJOLkVsEn6N5ifR37wdtL82ZO7Lsf794/view?usp=share_link"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Data Science Club ---> http://charusat.ac.in/DataScienceClub/"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Eager Beavers Club ---> https://eagerbeavers.charusat.ac.in/"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "AWS Student Club ---> https://asc.charusat.ac.in/#/"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Developer Student Club ---> https://dsc-charusat.web.app/team"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "6",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "995656d8-5159-497b-a7c0-5bf90b2f2278",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

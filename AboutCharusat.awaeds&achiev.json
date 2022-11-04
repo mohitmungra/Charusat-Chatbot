@@ -1,0 +1,85 @@
+{
+  "id": "2f3f69b2-8a73-42f4-bdb0-513f16dfe595",
+  "name": "AboutCharusat.awaeds&achiev",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ranked Amongest Top 200 University by NIRF 2022"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ranked Amongest Top 3 Universities in Gujarat by GSIRF 2021"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Achieved Q2 Innovation Rank in 110th IND 2022 SCIMAGO Institutions Rankings"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Certified as Center of Excellence by Government of Gujarat"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Charusat is a member of the United Nations Academic Impact (UNAI)"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1bf7cc7-c6e1-484b-a945-3da81b8814ce",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

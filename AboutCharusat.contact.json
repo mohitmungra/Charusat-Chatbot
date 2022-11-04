@@ -1,0 +1,57 @@
+{
+  "id": "c253ed01-89c6-4632-b87b-161d1c19e97b",
+  "name": "AboutCharusat.contact",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Telephone: 02697-265011/ 265021\nMobile: +91-9925691113 / 9825293046\nFax: 02697-265007\nEmail: charusat.cms@charusat.ac.in"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "7",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b2e81fb-ea7d-4aac-bedb-1b2caf78a801",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

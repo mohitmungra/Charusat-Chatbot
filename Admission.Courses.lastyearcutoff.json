@@ -1,0 +1,92 @@
+{
+  "id": "569fe6be-7e0d-4c56-bcff-18b216c1ab02",
+  "name": "Admission.Courses.lastyearcutoff",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AdmissionCourses-followup"
+  ],
+  "contexts": [
+    "AdmissionCourses-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "761552be-9fb2-4088-97fc-6b49d9b69853",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Admission.Admission-custom.AdmissionCourses-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "As per 2022 ACPC Merit List _-->"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For SC Category Opening Rank is 10035 and Closing Rank is 13867."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For SEBC Category Opening Rank is 3558 and Closing Rank is 4977."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For EWS Category Opening Rank is 2861 and Closing Rank is 2861."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For GEN Category Opening Rank is 1993 and Closing Rank is 2843."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For TFWS Category Opening Rank is 928 and Closing Rank is 1546."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "241ae81a-0d06-4f9d-8b26-9569f2791edd",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

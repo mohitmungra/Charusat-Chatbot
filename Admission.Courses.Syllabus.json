@@ -1,0 +1,57 @@
+{
+  "id": "07118c07-e378-4208-b6f1-671a50ddddca",
+  "name": "Admission.Courses.Syllabus",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AdmissionCourses-followup"
+  ],
+  "contexts": [
+    "AdmissionCourses-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "761552be-9fb2-4088-97fc-6b49d9b69853",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Admission.Admission-custom.AdmissionCourses-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "http://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/IT/"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27413507-d2aa-4828-86ad-5a04423e6b4d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

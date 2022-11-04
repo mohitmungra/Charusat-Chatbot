@@ -1,0 +1,57 @@
+{
+  "id": "b75fd309-2bc8-4988-8ec4-3a4c2f970dc3",
+  "name": "AboutCharusat.foundationdet",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AboutCharusat-followup"
+  ],
+  "contexts": [
+    "AboutCharusat-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "AboutCharusat.AboutCharusat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Charotar University of Science and Technology (CHARUSAT) is established under the Gujarat Act No. 8 of 1995, Government of Gujarat. University Grants Commission (UGC) has empowered CHARUSAT to award Degrees under Section 22 of UGC Act 1956.[4][5] Earlier campus was known as Education Campus Changa until 2009. CHARUSAT was accredited with grade A+ by NAAC in 2022."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "a712c9ff-df9c-437f-8b4b-54c66c1a8666",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90bf5a5b-adb2-4eaf-813c-ee02794b019f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

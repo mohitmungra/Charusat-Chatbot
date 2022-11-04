@@ -1,0 +1,57 @@
+{
+  "id": "4995f2b7-5709-49c9-b14b-35cef948edfa",
+  "name": "Hostel&Transportation.Transportation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "HostelTransportation-followup"
+  ],
+  "contexts": [
+    "HostelTransportation-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "c5c0d66b-f7cd-4a02-b826-f181eb6f1867",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "HostelTransportation.HostelTransportation-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.charusat.ac.in/transportation.php"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "c5c0d66b-f7cd-4a02-b826-f181eb6f1867",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae097252-f02f-4337-9f95-3e8a92e006a8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

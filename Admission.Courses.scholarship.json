@@ -1,0 +1,57 @@
+{
+  "id": "8af06edd-17a8-42d4-8f83-ad28bd2b9d2b",
+  "name": "Admission.Courses.scholarship",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AdmissionCourses-followup"
+  ],
+  "contexts": [
+    "AdmissionCourses-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "761552be-9fb2-4088-97fc-6b49d9b69853",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Admission.Admission-custom.AdmissionCourses-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.charusat.ac.in/admission/scholarship.html"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "5",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8122af9-1b18-4350-b38a-4362087c952e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

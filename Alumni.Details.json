@@ -1,0 +1,64 @@
+{
+  "id": "7ada2b84-5405-4ab7-8f75-a4a098c7c4b1",
+  "name": "Alumni.Details",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Alumni-followup"
+  ],
+  "contexts": [
+    "Alumni-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Alumni.Alumni-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Here is Last Year Alumni -->>>"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/1mNEkYaKospQ07xveFhkalQvAwz3BtDti/view?usp=share_link"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "094453db-4ff3-4536-84b5-a6868292ec9c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,97 @@
+{
+  "id": "761552be-9fb2-4088-97fc-6b49d9b69853",
+  "name": "Admission.Courses",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Admission-followup"
+  ],
+  "contexts": [
+    "Admission-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Admission.Admission-custom",
+      "affectedContexts": [
+        {
+          "name": "AdmissionCourses-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "1.Last year Cutoff (IT Department)"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "2.No. of Seats (IT Department)"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "3.Fee Details"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "4.Syllabus"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "5.Scholarship"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "6.Contact Details"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "308c9109-89b5-4757-9dfd-36c5443d31c9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

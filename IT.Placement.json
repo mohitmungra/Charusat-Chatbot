@@ -1,0 +1,86 @@
+{
+  "id": "0acd5c9e-b8ac-4856-bd20-11941c2fafa3",
+  "name": "IT.Placement",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Parents.Parents-custom",
+      "affectedContexts": [
+        {
+          "name": "ParentsPlacement-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We work for building student's careers by preparing them for jobs, higher education, entrepreneurship, and other career options. Students get assistance in terms of Internship Support, Aptitude Training, Mock Interview, Training for IELTS, TOEFL, GRE, GMAT, CAT, GPSC, UPSC and more, Higher Education/Foreign Education Guidance, Soft Skills / Personality Development, On-Campus and Off Campus Recruitment to launch their career."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.charusat.ac.in/placement.php"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "1.Highest Package"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "2.Average Package"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "3.Company"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67fd08cb-47a1-4c4c-918b-4a5592c61fc9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

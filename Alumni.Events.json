@@ -1,0 +1,57 @@
+{
+  "id": "3adeacbc-3eea-4b75-b505-22512a7460f9",
+  "name": "Alumni.Events",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Alumni-followup"
+  ],
+  "contexts": [
+    "Alumni-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Alumni.Alumni-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://docs.google.com/document/d/1-5HZ4kbxKoOQxD31Y65A8NBLqE1BZzhU/edit?usp=share_link&ouid=115002869688246247252&rtpof=true&sd=true"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "46038156-58c7-4f23-bf96-56f49dd09888",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69b7ffc5-0cf8-4cfd-b23e-e59d7fb5e5b3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

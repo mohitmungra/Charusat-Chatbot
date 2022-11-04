@@ -1,0 +1,62 @@
+{
+  "id": "f5ec8c93-cc55-444e-9faa-b2cf1e762417",
+  "name": "Hostel&Transportation.Hostel",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "HostelTransportation-followup"
+  ],
+  "contexts": [
+    "HostelTransportation-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "c5c0d66b-f7cd-4a02-b826-f181eb6f1867",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "HostelTransportation.HostelTransportation-custom",
+      "affectedContexts": [
+        {
+          "name": "HostelTransportation-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.charusat.ac.in/hostels.php"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "c5c0d66b-f7cd-4a02-b826-f181eb6f1867",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13a41051-02b3-484c-8f37-99be835da91b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,57 @@
+{
+  "id": "c306b3c5-0151-4071-9490-71ddef858dcf",
+  "name": "Admission.Courses.feedetails",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "AdmissionCourses-followup"
+  ],
+  "contexts": [
+    "AdmissionCourses-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": "761552be-9fb2-4088-97fc-6b49d9b69853",
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Admission.Admission-custom.AdmissionCourses-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://drive.google.com/file/d/1x72rDFvbYJ_VP1RxJwaJoNqyLtjxXo3H/view?usp=sharing"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": "b23dd3c3-3c21-4d42-8e77-101e062f2841",
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b9d73d8-1784-4377-94ac-200e66dcbee3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
